@@ -1,0 +1,9 @@
+version: '3'
+services:
+  rpmbuild:
+    build:
+      context: ./
+      dockerfile: rpmbuild.dockerfile
+    user: 'rpmbuild'
+    volumes:
+      - .:/home/rpmbuild/meilisearch-packaging:rw

@@ -1,0 +1,12 @@
+[Unit]
+Description=Meilisearch
+After=systemd-user-sessions.service
+
+[Service]
+User=meilisearch
+Group=meilisearch
+Type=simple
+ExecStart=/sbin/meilisearch --config-file-path /etc/meilisearch/config.toml
+
+[Install]
+WantedBy=default.target
