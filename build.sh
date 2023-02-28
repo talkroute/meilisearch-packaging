@@ -1,6 +1,6 @@
 #!/bin/bash
 
-MEILISEARCHVERSION="1.0.0"
+MEILISEARCHVERSION="1.0.2"
 
 set -e
 
