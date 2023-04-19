@@ -1,5 +1,5 @@
 Name:           meilisearch
-Version:        1.0.2
+Version:        1.1.1
 Release:        1%{?dist}
 Summary:        A lightning-fast search engine that fits effortlessly into your apps, websites, and workflow
 
